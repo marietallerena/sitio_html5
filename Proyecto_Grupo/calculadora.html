@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Documento sin tÃ­tulo</title>
+
+<style type="text/css" >
+div {
+	width:200px;
+	height:50px;
+	background-color: transparent;
+ }
+</style>
+<SCRIPT LANGUAGE="JavaScript">
+function Ver() {
+    var a=document.getElementById("a").value;
+	var b=document.getElementById("b").value;
+document.getElementById("result").innerHTML =parseInt(a)+parseInt(b);
+}
+</SCRIPT>
+</HEAD>
+<BODY  background="imagenes/cal.png">
+<table width="106%" border="0">
+  <tr>
+    <td width="30%" height="107">&nbsp;</td>
+    <td width="68%"  align="left"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INGRESE LOS VALORES A SUMAR</strong></p></td>
+    <td width="2%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="135">&nbsp;</td>
+    <td><input type="text" id="a"/>
+ <input type="text" id="b"/>
+ <button onclick="Ver();">ENTER</button>
+    <div id="result">
+    </div>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+ 
+ 
+</BODY>
+</html>
+
