@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	background-color: #ADC8E2;
-	color: #FF8AC5;
-	font-family: "Courier New", Courier, monospace;
-	font-size: 18px;
+body { 
+background-color: #ADC8E2;
+color: #FF8AC5; 
+font-family: "Courier New", Courier, monospace; 
+font-size: 16pt; 
 }
 h1
 { 
@@ -13,11 +13,11 @@ color: #FF80C0;
 font-family:  "Trebuchet MS", Arial, Helvetica, sans-serif; 
 font-size: 30pt; 
 }
-p{  
-
-font-size:25px;
-color:#000000;
-font-family:Georgia, "Times New Roman", Times, serif;
+p{
+	font-size: 12px;
+	color: #000000;
+	font-family: "Courier New", Courier, monospace;
+	text-align: justify;
 	}
 	li{
 		font-size:25px;
@@ -66,16 +66,52 @@ font-size: 15pt;
         }
         
        	 #texto{
-            text-align:center;
-            font-family:arial;
-            font-size:30px;
-            font-weight:bold;
-            color:rgba(256,256,256,1);
-            text-shadow: 1px 1px 0px rgba(230,230,230,1), 2px 2px 0px rgba(200,200,200,1), 3px 3px 0px rgba(180,180,180,1), 4px 4px 0px rgba(160,160,160,1), 5px 5px 0px rgba(0,0,0,1), 8px 8px 20px rgba(0,0,0,0.5);
+	text-align: justify;
+	font-family: arial;
+	font-size: 30px;
+	font-weight: bold;
+	color: rgba(256,256,256,1);
+	text-shadow: 1px 1px 0px rgba(230,230,230,1), 2px 2px 0px rgba(200,200,200,1), 3px 3px 0px rgba(180,180,180,1), 4px 4px 0px rgba(160,160,160,1), 5px 5px 0px rgba(0,0,0,1), 8px 8px 20px rgba(0,0,0,0.5);
         }
         .tresde{
             font-size:25px;
-        }
-.a {
-	font-size: 24pt;
+        }.fdsf {
+	font-size: 12pt;
+}
+.ver {
+	font-family: "Courier New", Courier, monospace;
+	text-align: justify;
+}
+.sdfsdf {
+	font-size: 12pt;
+}
+.dfsdf {
+	color: #000000;
+	font-size: 12pt;
+	text-align: center;
+}
+.fsdfdsf {
+	font-size: 12pt;
+}
+.fff {
+	color: #000000;
+}
+.fff strong {
+	font-size: 12pt;
+}
+.fff strong {
+	color: #000000;
+}
+.dos {
+	color: #000066;
+}
+.dos {
+	font-weight: bold;
+}
+.dfsdf {
+	text-align: justify;
+
+}
+.asul {
+	color: #006;
 }
